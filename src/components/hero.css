@@ -1,0 +1,33 @@
+.hero-card {
+    display: block;
+    max-width: 32%;
+    background-color: rgb(240, 238, 238);
+    margin: 1vh;
+}
+
+.hero-card:hover {
+    box-shadow: inset 2px 2px 5px rgba(221, 140, 59, 0.5), 1px 1px 5px rgb(120, 117, 117);
+}
+
+.hero-img {
+    max-height: 200px;
+    padding-top: 3%;
+}
+
+.hero-img:hover {
+    transform: scale(1.1);
+}
+
+.hero-name {
+    font-size: 7vh;
+    font-style: bold;
+}
+
+.hero-info {
+    padding: 3%;
+}
+
+.hero-power {
+    padding: 3%;
+    font-style: italic;
+}
